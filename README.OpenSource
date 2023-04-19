@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "ryu",
+    "License": "Apache License V2.0, MIT",
+    "License File": "LICENSE-APACHE, LICENSE-MIT",
+    "Version Number": "1.0.13",
+    "Owner": "xuelei3@huawei.com",
+    "Upstream URL": "https://github.com/dtolnay/ryu",
+    "Description": "Fast floating point to string conversion."
+  }
+]
