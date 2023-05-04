@@ -1,8 +1,8 @@
 [
   {
     "Name": "ryu",
-    "License": "Apache License V2.0, MIT",
-    "License File": "LICENSE-APACHE, LICENSE-MIT",
+    "License": "Apache License V2.0, BSL-1.0",
+    "License File": "LICENSE-APACHE, LICENSE-BOOST",
     "Version Number": "1.0.13",
     "Owner": "xuelei3@huawei.com",
     "Upstream URL": "https://github.com/dtolnay/ryu",
