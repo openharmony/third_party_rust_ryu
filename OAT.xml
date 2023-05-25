@@ -62,6 +62,9 @@ Note:If the text contains special characters|please escape them according to the
                 <policyitem type="compatibility" name="InvalidLicense" path="src/lib.rs" rule="may" group="defaultGroup" filefilter="defaultPolicyFilter" desc="原生上游文件不涉及license"/>
                 <policyitem type="compatibility" name="BSL-1.0" path="src/.*.rs" rule="may" group="defaultGroup" filefilter="defaultPolicyFilter" desc="use LICENSE-APACHE instead of BSL-1.0"/>
                 <policyitem type="compatibility" name="BSL-1.0" path="tests/.*.rs" rule="may" group="defaultGroup" filefilter="defaultPolicyFilter" desc="use LICENSE-APACHE instead of BSL-1.0"/>
+                <policyitem type="compatibility" name="Apache-2.0" path="/.*" rule="may" group="defaultGroup" filefilter="defaultPolicyFilter" desc="上游原生文件"/>
+                <policyitem type="compatibility" name="InvalidLicense" path="/.*" rule="may" group="defaultGroup" filefilter="defaultPolicyFilter" desc="上游原生文件"/>
+                <policyitem type="compatibility" name="BSL-1.0" path="/.*" rule="may" group="defaultGroup" filefilter="defaultPolicyFilter" desc="上游原生文件"/>
             </policy>
         </policylist>
         <filefilterlist>
